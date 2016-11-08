@@ -3,7 +3,7 @@ This is an example of a sink for Cloud Foundry. Currently, this is manually push
 ## How to deploy with Spring Cloud Data Flow Cloud Foundry
 
 ```
-jar cvf pysink.jar cusumer.py requirement.txt Procfile
+jar cvf pylog.jar cusumer.py requirement.txt Procfile
 ```
 
 Upload `pylog.jar` to some repostory such as http server.
