@@ -12,7 +12,7 @@ jar cvf pysink.jar cusumer.py requirement.txt Procfile
 
 Upload `pylog.jar` to some repostory such as http server.
 
-In Spring Cloud Data Shell,
+In Spring Cloud Data Flow Shell,
 
 ```
 app register --name pylog --type sink --uri https://github.com/making/python-spring-cloud-stream/raw/master/examples/cloudfoundry/spring_cloud_stream_sink_cloudfoundry/pylog.jar
